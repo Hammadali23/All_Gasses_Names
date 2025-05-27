@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete List of World Gases - English</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .gas-item {
+            border: 1px solid #ecf0f1;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            background: #fdfdfd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .gas-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2980b9;
+            margin-bottom: 5px;
+        }
+        
+        .formula {
+            font-size: 16px;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-bottom: 8px;
+        }
+        
+        .uses {
+            font-size: 14px;
+            color: #2c3e50;
+            text-align: justify;
+        }
+        
+        .category {
+            background: #3498db;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 25px 0 15px 0;
+            border-radius: 5px;
+        }
+        
+        .download-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #27ae60;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        .download-btn:hover {
+            background: #219a52;
+        }
+        
+        @media print {
+            .download-btn { display: none; }
+            body { margin: 0; padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <button class="download-btn" onclick="downloadPDF()">Download PDF</button>
+    
+    <div class="header">
+        <div class="title">Complete List of World Gases</div>
+        <div class="subtitle">Chemical Formulas and Uses</div>
+    </div>
+
+    <div class="category">Essential Gases</div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Oxygen</div>
+        <div class="formula">Formula: O₂</div>
+        <div class="uses">Uses: Essential for breathing and respiration, used in hospitals for patients, welding processes, rocket fuel oxidizer, and steel production.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Carbon Dioxide</div>
+        <div class="formula">Formula: CO₂</div>
+        <div class="uses">Uses: Carbonation in soft drinks, fire extinguishers, photosynthesis in plants, dry ice production, and greenhouse cultivation.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Nitrogen</div>
+        <div class="formula">Formula: N₂</div>
+        <div class="uses">Uses: Food packaging preservation, fertilizer production, tire inflation, welding protective atmosphere, and cryogenic preservation.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Hydrogen</div>
+        <div class="formula">Formula: H₂</div>
+        <div class="uses">Uses: Rocket fuel, fuel cells for clean energy, ammonia production, metal refining processes, and hydrogenation in food industry.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Helium</div>
+        <div class="formula">Formula: He</div>
+        <div class="uses">Uses: Party balloons and airships, MRI machine cooling, deep-sea diving breathing mixtures, and leak detection.</div>
+    </div>
+
+    <div class="category">Household & Commercial Gases</div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Methane</div>
+        <div class="formula">Formula: CH₄</div>
+        <div class="uses">Uses: Natural gas for cooking and heating, electricity generation, CNG vehicle fuel, and industrial heating processes.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Propane</div>
+        <div class="formula">Formula: C₃H₈</div>
+        <div class="uses">Uses: LPG cylinders for cooking, BBQ grills, heating systems, forklifts, and portable camping stoves.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Butane</div>
+        <div class="formula">Formula: C₄H₁₀</div>
+        <div class="uses">Uses: Cigarette lighters, portable stoves, refrigeration systems, aerosol spray propellant, and fuel for torches.</div>
+    </div>
+
+    <div class="category">Toxic & Hazardous Gases</div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Carbon Monoxide</div>
+        <div class="formula">Formula: CO</div>
+        <div class="uses">Uses: Extremely dangerous gas from incomplete combustion, metal smelting reduction agent, and chemical synthesis intermediate.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Ammonia</div>
+        <div class="formula">Formula: NH₃</div>
+        <div class="uses">Uses: Fertilizer production, household cleaning products, refrigeration coolant, plastic manufacturing, and textile processing.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Chlorine</div>
+        <div class="formula">Formula: Cl₂</div>
+        <div class="uses">Uses: Water purification and treatment, swimming pool disinfection, paper bleaching, PVC plastic production, and chemical manufacturing.</div>
+    </div>
+
+    <div class="category">Industrial Gases</div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Acetylene</div>
+        <div class="formula">Formula: C₂H₂</div>
+        <div class="uses">Uses: Metal cutting and welding, portable lighting systems, chemical synthesis intermediate, and glass blowing.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Argon</div>
+        <div class="formula">Formula: Ar</div>
+        <div class="uses">Uses: Welding protective atmosphere, incandescent light bulbs, metal production processes, and window insulation.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Sulfur Dioxide</div>
+        <div class="formula">Formula: SO₂</div>
+        <div class="uses">Uses: Wine making preservative, paper bleaching, sulfuric acid production, and food preservation.</div>
+    </div>
+
+    <div class="category">Environmental Gases</div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Ozone</div>
+        <div class="formula">Formula: O₃</div>
+        <div class="uses">Uses: UV radiation protection in atmosphere, water treatment disinfection, air purification systems, and medical treatments.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Nitrous Oxide</div>
+        <div class="formula">Formula: N₂O</div>
+        <div class="uses">Uses: Medical anesthesia (laughing gas), rocket propellant, whipped cream dispensers, and automotive performance enhancement.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Hydrogen Sulfide</div>
+        <div class="formula">Formula: H₂S</div>
+        <div class="uses">Uses: Sulfur production, analytical chemistry applications, oil refinery byproduct, and geothermal energy indicator.</div>
+    </div>
+
+    <div class="category">Noble Gases</div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Neon</div>
+        <div class="formula">Formula: Ne</div>
+        <div class="uses">Uses: Advertising neon signs with bright orange-red light, laser applications, cryogenic refrigeration, and voltage indicators.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Krypton</div>
+        <div class="formula">Formula: Kr</div>
+        <div class="uses">Uses: High-efficiency light bulbs, laser applications, photography flash lamps, and scientific research.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Xenon</div>
+        <div class="formula">Formula: Xe</div>
+        <div class="uses">Uses: Car HID headlights, medical imaging anesthetic, space propulsion systems, and nuclear reactor applications.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Radon</div>
+        <div class="formula">Formula: Rn</div>
+        <div class="uses">Uses: Medical radiotherapy treatments, geological surveys, earthquake prediction research, and atmospheric studies.</div>
+    </div>
+
+    <div class="category">Chemical Industry Gases</div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Ethylene</div>
+        <div class="formula">Formula: C₂H₄</div>
+        <div class="uses">Uses: Polyethylene plastic production, fruit ripening agent, chemical synthesis intermediate, and welding gas mixture.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Fluorine</div>
+        <div class="formula">Formula: F₂</div>
+        <div class="uses">Uses: Teflon coating production, toothpaste fluoride compounds, uranium enrichment processes, and pharmaceutical manufacturing.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Phosphine</div>
+        <div class="formula">Formula: PH₃</div>
+        <div class="uses">Uses: Semiconductor industry doping agent, fumigation pesticide, chemical synthesis, and metal phosphide production.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Silicon Tetrafluoride</div>
+        <div class="formula">Formula: SiF₄</div>
+        <div class="uses">Uses: Glass etching processes, semiconductor manufacturing, chemical analysis, and fluorosilicic acid production.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Hydrogen Chloride</div>
+        <div class="formula">Formula: HCl</div>
+        <div class="uses">Uses: Hydrochloric acid production, metal cleaning and pickling, chemical processing, and pH control.</div>
+    </div>
+
+    <div class="category">Specialty & Research Gases</div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Boron Trifluoride</div>
+        <div class="formula">Formula: BF₃</div>
+        <div class="uses">Uses: Chemical catalyst, ion implantation in semiconductors, neutron detection, and organic synthesis.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Arsine</div>
+        <div class="formula">Formula: AsH₃</div>
+        <div class="uses">Uses: Semiconductor doping, chemical vapor deposition, research applications, and analytical chemistry.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Diborane</div>
+        <div class="formula">Formula: B₂H₆</div>
+        <div class="uses">Uses: Rocket fuel component, semiconductor manufacturing, chemical synthesis, and reducing agent.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Nitric Oxide</div>
+        <div class="formula">Formula: NO</div>
+        <div class="uses">Uses: Medical treatments for pulmonary hypertension, chemical synthesis, environmental monitoring, and biological signaling.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Nitrogen Dioxide</div>
+        <div class="formula">Formula: NO₂</div>
+        <div class="uses">Uses: Nitric acid production, rocket propellant oxidizer, chemical synthesis, and atmospheric research.</div>
+    </div>
+
+    <div class="category">Refrigerant Gases</div>
+    
+    <div class="gas-item">
+        <div class="gas-name">Freon (R-12)</div>
+        <div class="formula">Formula: CCl₂F₂</div>
+        <div class="uses">Uses: Older refrigeration systems, aerosol propellants (now largely banned due to ozone depletion), and foam blowing agent.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">R-134a</div>
+        <div class="formula">Formula: C₂H₂F₄</div>
+        <div class="uses">Uses: Modern automotive air conditioning, household refrigerators, commercial refrigeration, and aerosol propellants.</div>
+    </div>
+    
+    <div class="gas-item">
+        <div class="gas-name">R-410A</div>
+        <div class="formula">Formula: CH₂F₂ + CHF₂CF₃</div>
+        <div class="uses">Uses: Home and commercial air conditioning systems, heat pumps, and refrigeration equipment.</div>
+    </div>
+
+    <script>
+        function downloadPDF() {
+            window.print();
+        }
+        
+        // Auto-adjust for better printing
+        window.addEventListener('beforeprint', function() {
+            document.body.style.fontSize = '12px';
+        });
+        
+        window.addEventListener('afterprint', function() {
+            document.body.style.fontSize = '';
+        });
+    </script>
+</body>
+</html>
